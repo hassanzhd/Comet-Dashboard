@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Comet Dashboard",
+  "description": "A dashboard that replaces chrome's default new tab page with with various widgets like bookmarks, music etc.",
+  "version": "1.0",
+  "offline_enabled": true,
+  "chrome_url_overrides": {
+    "newtab": "dashboard.html"
+  },
+  "icons": {
+    "16": "img/favicon.png",
+    "48": "img/favicon.png",
+    "128": "img/favicon.png"
+  },
+  "browser_action": {
+    "default_icon": "img/favicon.png"
+  },
+  "content_security_policy": "script-src 'self' https://darksky.net https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js; object-src 'self'"
+}
