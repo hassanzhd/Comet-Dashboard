@@ -10,5 +10,6 @@ Date/Time, Current Weather, a new motivational quote every single day, set of bo
 ## Settings
 
 ```
-Go to settings in Music section and replace 'Sir' with your name and 'embed code' with the embed code of your desired playlist
+Go to settings in Music section and replace 'Sir' with your name 
+and 'embed code' with the embed code of your desired playlist
 ```
